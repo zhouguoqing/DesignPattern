@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,6 +50,18 @@
     <Compile Include="Builder\ChargingPile.cs" />
     <Compile Include="Builder\ChargingPileBuilder.cs" />
     <Compile Include="Builder\ChargingPileManager.cs" />
+    <Compile Include="Facade\ChargeBillDeleteService.cs" />
+    <Compile Include="Facade\ChargeBillDetailEntity.cs" />
+    <Compile Include="Facade\ChargeBillFacadeService.cs" />
+    <Compile Include="Facade\ChargeBillQueryService.cs" />
+    <Compile Include="Facade\ChargeBillSaveService.cs" />
+    <Compile Include="Facade\ChargeBillsEntity.cs" />
+    <Compile Include="Facade\ChargeBillServiceFactory.cs" />
+    <Compile Include="Facade\ChargeBillUpdateService.cs" />
+    <Compile Include="Facade\IChargeBillDeleteService.cs" />
+    <Compile Include="Facade\IChargeBillQueryService.cs" />
+    <Compile Include="Facade\IChargeBillSaveService.cs" />
+    <Compile Include="Facade\IChargeBillUpdateService.cs" />
     <Compile Include="ProtoType\TeldController.cs" />
     <Compile Include="SPI\AbstractServiceGroup.cs" />
     <Compile Include="SPI\AbstractService.cs" />
